@@ -1,7 +1,5 @@
 ONTAP REST API Clients
 
-API description provided by github.com/NetAppDocs/ontap-restapi, compatible with OpenAPI specifications.
-Files, located internal/clients and internal/models, are generated using go-swagger.
+API description provided by github.com/NetAppDocs/ontap-restapi, compatible with OpenAPI v2 specifications.
 
-Execute: `swagger generate client -f ontap.yml`
-Version: 9161
+Generated code in `example/ontap/`. Use the helper function `NewClient()` in `example/ontap/client.go` to create a new ONTAP API client.
